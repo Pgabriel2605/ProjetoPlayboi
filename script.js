@@ -4,7 +4,7 @@ const miniPlayer=document.getElementById('miniPlayer');
 const ytPlayer = document.getElementById('ytPlayer');
 
 openBtn.addEventListener('click', () => {
-    ytPlayer.src="https://www.youtube.com/embed/GRoa6w-wnT4?si=iO8IABfpT2VApaUi&autoplay=1";
+    ytPlayer.src=`https://www.youtube.com/embed/GRoa6w-wnT4?si=iO8IABfpT2VApaUi&autoplay=1&t=${new Date().getTime()}`;
     miniPlayer.classList.add('show');
 
 
