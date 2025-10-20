@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar1">
+        <h1 class="what">WHAT!</h1>
+        <ul class="lista">
+            <li class="item1"><a href="index.html">Visão Geral </a></li>
+            <li class="item2"><a href="biografia.html">Biografia </a></li>
+            <li class="item3"><a href="albuns.html">Albuns</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner-text">
+            <h1>Playboi Carti</h1>
+            <p>O estilo único, as batidas experimentais e a energia que redefiniram o trap . </p>
+            </div>
+
+            <div class="button"> 
+
+                <button type="submit" class="btn" onclick="abrirPlayer()">
+                     <i class="fa-solid fa-play"> </i> 
+                    <span class="text-span">Reproduzir Artista</span>
+               
+                </button>
+
+            </div>
+
+            <div id="miniPlayer">
+                <iframe id ="ytPlayer" frameborder="0"  allow="autoplay;  encrypted-media" allowfullscreen ></iframe>
+                <button onclick="fecharPlayer()">✖</button>
+            </div>
+
+            
+         
+        </section>
+
+       
+    </main>
+    
+</body>
+</html>
