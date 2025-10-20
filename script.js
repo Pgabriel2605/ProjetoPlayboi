@@ -13,6 +13,6 @@ openBtn.addEventListener('click', () => {
 
 closeBtn.addEventListener('click', () => {
     ytPlayer.src = "";
-    miniPlayer.classList.add('show');
+    miniPlayer.classList.remove('show');
 
 });

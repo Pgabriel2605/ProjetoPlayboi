@@ -129,7 +129,6 @@ i{
 #miniPlayer{
     position: fixed;
     bottom: -220px;
-    bottom: 20px;
     right: 20px;
     width: 340px;
     height: 190px;
