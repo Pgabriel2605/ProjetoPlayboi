@@ -127,8 +127,8 @@ i{
 
 
 #miniPlayer{
-    display: none;
     position: fixed;
+    bottom: -220px;
     bottom: 20px;
     right: 20px;
     width: 340px;
@@ -138,6 +138,11 @@ i{
     overflow: hidden;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
     z-index: 999;
+    transition: bottom 0.5s ease;
+}
+
+#miniPlayer.show{
+    bottom: 20px;
 }
 
 #miniPlayer iframe{

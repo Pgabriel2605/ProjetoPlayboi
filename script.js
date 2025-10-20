@@ -1,19 +1,18 @@
-function abrirPlayer(){
-    const player= document.getElementById('miniPlayer');
-    const iframe= document.getElementById('ytPlayer');
-iframe.src = "https://www.youtube.com/embed/YG3EhWlBaoI?si=OYxDYaroaKWANeh1";
+const openBtn= document.getElementsByClassName('btn')[0];
+const closeBtn= document.getElementsByClassName('close')[0];
+const miniPlayer=document.getElementById('miniPlayer');
+const ytPlayer = document.getElementById('ytPlayer');
 
-    player.style.display='block';
-
-
-}
-
-function fecharPlayer(){
-    const player = document.getElementById('miniPlayer');
-    const iframe = document.getElementById('ytPlayer');
-
-    iframe.src="";
-    player.style.display='none';
-}
+openBtn.addEventListener('click', () => {
+    ytPlayer.src="https://www.youtube.com/embed/YG3EhWlBaoI?si=OYxDYaroaKWANeh1&autoplay=1";
+    miniPlayer.classList.add('show');
 
 
+});
+
+
+closeBtn.addEventListener('click', () => {
+    ytPlayer.src = "";
+    miniPlayer.classList.add('show');
+
+});
