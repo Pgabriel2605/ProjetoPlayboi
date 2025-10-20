@@ -55,7 +55,7 @@ body{
 
 .banner{
     width: 100%;
-    height: 200px;
+    height: 480px;
 background: 
 url(fotos/qualidade.png),
 linear-gradient(90deg,#8b0000, #6f0909);
@@ -70,18 +70,18 @@ align-items: flex-start;
 }
 
 .banner h1 {
-    font-size: 48px;
+    font-size: 38px;
     margin: 0;
     color: white;
     padding-left: 70px;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 30px;
     
     
 }
 
 .banner p{
-    font-size: 22px;
+    font-size: 20px;
     margin: 0;
     color: white;
     padding-left: 70px;
@@ -162,4 +162,73 @@ i{
     height: 25px;
     cursor: pointer;
 }
+
+
+.parte{
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 45px;
+
+
+}
+
+.albuns{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    
+}
+
+
+.IamMusic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.imagem1{
+     width: 130px;               /* tamanho da imagem */
+    height: 120px;
+    background-image: url(fotos/10cf93995de9215931f95e1a2f34c37c.webp);
+    background-position: center;
+    background-size: cover;      /* mantém proporção e cobre todo o container */
+    background-repeat: no-repeat;
+    border-radius: 8px; 
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.imagem2{
+     width: 130px;               /* tamanho da imagem */
+    height: 120px;
+    background-image: url(fotos/ef217b8ec30f02e4afc94b693fc75a27.webp);
+    background-position: center;
+    background-size: cover;      /* mantém proporção e cobre todo o container */
+    background-repeat: no-repeat;
+    border-radius: 8px; 
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+
+
+
+.Playboi-Carti{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.Wholla-lotta-red{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
 
